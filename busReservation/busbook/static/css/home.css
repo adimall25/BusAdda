@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 900px;
+    background-image: url('../img/home.gif');
+    background-size: cover;
+    background-position: 10%;
+    position: relative;
+
+}
+.from {
+    display: inline-block;
+}
+.to {
+    display: inline-block;
+}
+.main{
+    display: block;
+    width: 70%;
+    margin-top: 190px;;
+    margin-left: auto;
+    margin-right: auto;
+}
+.from input{
+    padding: 10px 100px;
+    font-size: 25px;
+}
+.to input{
+    padding: 10px 100px;
+    font-size: 25px;
+}
+.btn{
+    padding: 3px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #1768ac;
+    border-radius: 10px;
+margin-left: 500px;
+   margin-top: 20px;
+}
+h1{
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    color: black;
+    font-size: 60px;
+}
+.btn:hover{
+    background-color: #3b14a7;
+   
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-family: 'Mate SC', serif;
+}
+#a{
+    display: inline-block;
+    margin-left: 30px;
+    position: absolute;
+    top: 7%;
+    text-decoration: none;
+    color: black;
+}
+.nav img{
+    height: 70px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+#a:hover{
+    color:white;
+}
+h3{
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Mate SC', serif;
+}
+hr{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin; */
+}
+
+#admin{
+    position: absolute;
+    top: 10%;
+    right: 6%;
+    color: black;
+    font-size: 20px;
+} 
+body{
+    position: relative;
+}
+#admin:hover{
+    color: aliceblue;
+}
+#buses{
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    font-size: 25px;
+    color: black;
+   
+}
+#buses:hover{
+    color: aliceblue;
+}
+
+/*************************************  BUS SEARCH RESULT STYLING ******************************/
+
+.search-result
+{
+    margin-top: 100px;
+}
+
+.search-result table
+{
+    display: none;
+    table-layout: fixed;
+    width: 100%;
+}
+
+
+.search-result table th,td
+{
+    text-align: center;
+    width: 11%;
+    padding:5px;
+}
+
+.search-result h2
+{
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid black;
+}
+.avaliable-bus{
+    color: aliceblue;
+}
+.search-result{
+    color: rgb(247, 250, 253);
+    font-size: 40px;
+}
+#faq{
+    position: absolute;
+    font-size: 25px;
+    right: 35%;
+    top: 10%;
+    color: black;
+}
+.container{
+    position: relative;
+}
+#faq:hover{
+    color: white;
+}
+.search-result .btn{
+    margin-left: 0px;
+    color: white;
+}
+@media screen and (max-width: 640px) {
+    .container {
+        width: 168%;
+        height:150%;
+    }
+    #a{
+        font-size: 20px;
+    }
+    #faq{
+        font-size: 20px;
+    }
+    #buses{
+        margin-left: 10px;
+        font-size: 20px;
+        
+    }
+    .btn{
+        margin-left: 211px;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width:768){
+    .btn{
+        margin-left: 211px;
+    }
+}

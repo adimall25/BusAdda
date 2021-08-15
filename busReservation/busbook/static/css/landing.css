@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url('../img/landing.gif');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+body
+{
+    display: none;
+}
+.main{
+    padding-top: 30vh;
+    text-align: center;
+    
+}
+h1{
+    font-size: 4rem;
+    color: white;
+    font-family: 'Baloo Tammudu 2', cursive;
+    
+}
+h2{
+    margin-top: 20px;
+    font-size: 3rem;
+    color: white;
+    font-family: 'Baloo Tammudu 2', cursive;
+   
+}
+
+hr
+{
+    width: 50%;
+    margin: auto;
+}
+.heading2{
+    margin-top: -50px;
+}
+.tag{
+    color: white;
+    font-size: 40px;
+ display: flex;
+ justify-content: center;
+   margin-top: 10px;
+}
+.tag a{
+    text-decoration: none;
+    color: white;
+
+}
+.tag a:hover{
+    color: black;
+}
